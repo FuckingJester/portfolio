@@ -29,24 +29,24 @@ const Navbar = () => {
               setToggle(!toggle)
             }}/>
             <div className={`${!toggle ? 'hidden' : 'flex'} black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] p-3 z-10 rounded-xl flex-col gap-3 items-start justify-end`}>
-              <Link 
+              <a 
               className='hover:text-gray-400 cursor-pointer text-[15px]' 
               onClick={() => {
                 setToggle(!toggle)
               }} 
-              to={'/'} >About</Link>
-              <Link 
+              href='#about'>About</a>
+              <a 
               className='hover:text-gray-400 cursor-pointer text-[15px]' 
               onClick={() => {
                 setToggle(!toggle)
               }} 
-              to={'/'} >Work</Link>
-              <Link 
+              href='#work'>Work</a>
+              <a 
               className='hover:text-gray-400 cursor-pointer text-[15px]'
               onClick={() => {
                 setToggle(!toggle)
               }} 
-              to={'/'} >Contacts</Link>
+              href='#projects' >Projects</a>
             </div>
           </div>
       </div>

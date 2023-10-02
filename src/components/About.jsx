@@ -40,7 +40,7 @@ const About = () => {
       </motion.div>
       <motion.p variants={fadeIn("","",0.1,1)}
       className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I am Junior Front-End Developer experience with Javacript, TypeScript also using Frameworks such as React, Node JS and a little bit Angular. I have an analytic mindset, I have a big passion to learn something new and become a part of something big in sphere of Development. Last 1 month I have worked with Low-Code paltform calls Funnelish, I created aproximately 10 funnels for E-Commerce products. 
+        I am Junior Front-End Developer experience with Javacript, TypeScript also using Frameworks such as React and a little bit Angular. I have an analytic mindset, I have a big passion to learn something new and become a part of something big in sphere of Development. Last 2 months I have worked with Low-Code paltform calls Funnelish, I created aproximately 10 funnels for E-Commerce products. 
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         <ServiceCard title={'Content Manager'} icon={content}/>

@@ -95,7 +95,7 @@ const Works = () => {
           tags={[{name : 'funnelish'},{name : 'low-code'},{name: 'css'},{name: 'js'},{name: 'swiper'}]}
           name={'Miracle'}
           image={miracle}
-          source_code_link={'https://selecart.com/comforter/odor-fighting'}
+          source_code_link={'https://selecart.com/comforter/'}
           description={'I Web Application developed on Low-Code platform Funnelish, using JavaScript and some libraries. E-Commerce landing page which make a profit to my clients.'}/>
         <ProjectCard 
           tags={[{name : 'funnelish'},{name : 'low-code'},{name: 'js'},{name: 'css'}]}

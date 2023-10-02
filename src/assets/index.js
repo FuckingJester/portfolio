@@ -20,9 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import beer from './project-1.png'
-import miracle from './project-2.png'
-import poliglu from './project-3.png'
+import beer from './beer.png'
+import miracle from './miracle.png'
+import poliglu from './poliglu.png'
 
 export {
   logo,

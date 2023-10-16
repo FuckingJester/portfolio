@@ -3,9 +3,11 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
+import link from "./link.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import interview from './interview.png'
+import novobudservice from './novobudservice.png'
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -23,6 +25,7 @@ import threejs from "./tech/threejs.svg";
 import beer from './beer.png'
 import miracle from './miracle.png'
 import poliglu from './poliglu.png'
+import fuugu from './fuugu.png'
 
 export {
   logo,
@@ -32,7 +35,7 @@ export {
   creator,
   mobile,
   web,
-  github,
+  link,
   menu,
   close,
   css,
@@ -48,5 +51,8 @@ export {
   tailwind,
   typescript,
   threejs,
-  beer
+  beer,
+  interview,
+  fuugu,
+  novobudservice
 };

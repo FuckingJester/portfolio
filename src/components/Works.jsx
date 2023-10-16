@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { beer,miracle,github,poliglu } from "../assets";
+import { beer,miracle,link,poliglu,interview,fuugu,novobudservice } from "../assets";
 
 const ProjectCard = ({
   name,
@@ -14,14 +14,14 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", 1.2 * 0.5, 0.75)}>
+    <motion.div className='sm:w-full md:w-fit' variants={fadeIn("up", "spring", 1.2 * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl w-full md:w-[360px] '
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -36,7 +36,7 @@ const ProjectCard = ({
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
-                src={github}
+                src={link}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
@@ -84,8 +84,8 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
-          <ProjectCard 
+      <div className='mt-20 flex flex-wrap gap-7 items-center justify-center'>
+        <ProjectCard 
           tags={[{name : 'react'},{name : 'zutand'},]}
           name={'Beer App'}
           image={beer}
@@ -103,6 +103,24 @@ const Works = () => {
           image={poliglu}
           source_code_link={'https://selecart.com/poliglu'}
           description={'A E-Commerce Web Site that bring our company aproximately 140 thousands UAH and over 1 million Tenge.'}/>
+        <ProjectCard 
+          tags={[{name : 'html'},{name : 'css'},{name: 'landing-page'}]}
+          name={'Interview'}
+          image={interview}
+          source_code_link={'https://fuckingjester.github.io/interview/'}
+          description={'A simple portfolio page for Photographer '}/>
+        <ProjectCard 
+          tags={[{name : 'low-code'},{name : 'only-mobile'},{name: 'js'},{name: 'funnelish'}]}
+          name={'Fuugu'}
+          image={fuugu}
+          source_code_link={'https://selecart.com/fuugu/washer'}
+          description={'E-Commerce funnel for business that buy products online'}/>
+        <ProjectCard 
+          tags={[{name : 'wordpress'},{name : 'multiple-pages'},{name: 'elementor'}]}
+          name={'Novo Bud Service'}
+          image={novobudservice}
+          source_code_link={'https://novobudservice.com/'}
+          description={'Multipage website for a construction company created on Wordpress'}/>
       </div>
     </React.Fragment>
   );

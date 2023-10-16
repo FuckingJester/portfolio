@@ -84,7 +84,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7 items-center justify-center'>
+      <div className='mt-20 flex flex-wrap gap-7'>
         <ProjectCard 
           tags={[{name : 'react'},{name : 'zutand'},]}
           name={'Beer App'}
